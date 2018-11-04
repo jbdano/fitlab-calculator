@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^([a-z.]+)?dano-apps.com$ [NC]
+RewriteCond %{HTTP_HOST} !^www. [NC]
+RewriteRule .? http://www.%1dano-apps.com%{REQUEST_URI} [R=301,L]
