@@ -20,16 +20,15 @@ $number_type = ($os) ? 'type="tel"' : 'type="number"';
         </script>
     
         <meta charset="UTF-8">
-        <title>Nightly Numbers Calculator</title>
+        <title>Fitlab | Calculator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="theme-color" content="#00a200">
-<!--         <link rel="icon" href="Assets/img/favicon3.png">	 -->
+        <link rel="icon" href="Assets/img/fitlab-logo.png">	
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css">
     	<link rel="stylesheet" href="Assets/css/custom.css">
     	
     	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -171,7 +170,7 @@ $number_type = ($os) ? 'type="tel"' : 'type="number"';
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+
 <script type="text/javascript">
 
 $(document).ready(function() {
@@ -194,7 +193,7 @@ $(document).ready(function() {
         	activePageIndex: 0,
         	pages: [
 				{
-					title: 'How many sales were made?',
+					title: 'Enter Sales',
 					help: [
 						{
 							title: 'Date',
@@ -207,7 +206,7 @@ $(document).ready(function() {
 					]
 				},
 				{
-					title: 'How much cash was received?',
+					title: 'Enter Cash',
 					help: [
 						{
 							title: 'Ship Cash',
@@ -220,7 +219,7 @@ $(document).ready(function() {
 					]
 				},
 				{
-					title: 'What are the month-to-date totals?',
+					title: 'Enter Month-To-Dates (MTD)',
 					help: [
 						{
 							title: 'Month-To-Date (MTD)',
@@ -229,7 +228,7 @@ $(document).ready(function() {
 					]
 				},
 				{
-					title: 'What are the monthly goals?',
+					title: 'Enter Monthly Goals',
 					help: [
 						{
 							title: 'Monthly Goals',
